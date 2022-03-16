@@ -92,7 +92,7 @@ Hello, world.
 $
 ```
 
-go命令通过请求相应的HTTPS URL并读取嵌入HTML响应中的元数据来定位包含给定模块路径的资源库（见go help importpath）。许多托管服务已经为包含Go代码的仓库提供了元数据，所以让你的模块供他人使用的最简单方法通常是使其模块路径与仓库的URL一致。
+go命令通过请求相应的HTTPS URL并读取嵌入HTML响应中的元数据来定位包含给定模块路径的资源库（见[go help importpath](https://go.dev/cmd/go/#hdr-Remote_import_paths)）。许多托管服务已经为包含Go代码的仓库提供了元数据，所以让你的模块供他人使用的最简单方法通常是使其模块路径与仓库的URL一致。
 
 ### 从模块导入包
 
